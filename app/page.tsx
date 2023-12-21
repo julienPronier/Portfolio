@@ -25,7 +25,7 @@ export default function Home() {
           </a>
           <ul>
             <li>Python Flask</li>
-            <li><a className="text-sky-400" href="https://dev.renatech.org/" target="blank">Stage à l'IEMN</a></li>
+            <li><a className="text-sky-400" href="https://dev.renatech.org/" target="blank">Stage à l&apos;IEMN</a></li>
           </ul>
         </div>
 
@@ -120,17 +120,17 @@ export default function Home() {
           </a>
           <ul>
             <li>Projet Repotech</li>
-            <li>J'ai pu travailler en stage sur ce logiciel web de gestion de projet scientifique développé en python-Flask</li>
-            <li>J'ai aussi utiliser du JS, du PostgreSQL et du HTML/CSS lors du projet</li>
+            <li>J&apos;ai pu travailler en stage sur ce logiciel web de gestion de projet scientifique développé en python-Flask</li>
+            <li>J&apos;ai aussi utiliser du JS, du PostgreSQL et du HTML/CSS lors du projet</li>
           </ul>
         </div>
 
         <div className="containaimg2" id="deux2">
           <img className="proj" src="ludo.png" alt="Image du site de Ludothèque" /> 
           <ul>
-            <li>Projet "Vapeur" (Ludothèque)</li>
+            <li>Projet &ldquo;Vapeur&ldquo; (Ludothèque)</li>
             <li></li>
-            <li>Le Front est en Angular et l'API back en Laravel</li>
+            <li>Le Front est en Angular et l&apos;API back en Laravel</li>
           </ul>
         </div>
 
@@ -139,7 +139,7 @@ export default function Home() {
           <ul>
             <li>Projet personnel (Géneration)</li>
             <li></li>
-            <li>Ce projet Python Flask m'a entrainer à utiliser StableDiffusion dans mes applications en plus de créations de compte et différentes features</li>
+            <li>Ce projet Python Flask m&apos;a entrainer à utiliser StableDiffusion dans mes applications en plus de créations de compte et différentes features</li>
           </ul>
         </div>
       </div>
