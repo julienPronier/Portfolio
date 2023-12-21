@@ -8,8 +8,8 @@ export default function Home() {
       <p className="mb-4 text-lg text-gray-500 md:text-xl dark:text-gray-400">Développeur basé à <big className="dark:text-white">Arras</big>, en France.</p>
       <p className="mb-4 text-lg text-gray-500 md:text-xl dark:text-gray-400">Je suis passionné par le <big className="dark:text-white">développement informatique</big> sous toutes ses formes.</p>
       <p className="mb-4 text-lg text-gray-500 md:text-xl dark:text-gray-400">Mon langage de programmation préféré est <big className="dark:text-white">Python</big>.</p>
-      <p className="mb-4 text-lg text-gray-500 md:text-xl dark:text-gray-400">Actuellement en <big className="dark:text-white">3ème année de BUT Informatique</big> à l'IUT de Lens.</p>
-      <p className="mb-4 text-lg text-gray-500 md:text-xl dark:text-gray-400">Je suis à la recherche d'une <big className="dark:text-white"> alternance</big> pour l'année prochaine.</p>
+      <p className="mb-4 text-lg text-gray-500 md:text-xl dark:text-gray-400">Actuellement en <big className="dark:text-white">3ème année de BUT Informatique</big> à l&apos;IUT de Lens.</p>
+      <p className="mb-4 text-lg text-gray-500 md:text-xl dark:text-gray-400">Je suis à la recherche d&apos;une <big className="dark:text-white"> alternance</big> pour l&apos;année prochaine.</p>
       <p className="mb-4 text-lg text-gray-500 md:text-xl dark:text-gray-400">Je serai disponible à partir du 15 août 2024.</p>
     
       <div id="photo">
