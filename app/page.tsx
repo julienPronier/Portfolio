@@ -3,20 +3,20 @@ import Script from "next/script"
 export default function Home() {
   return (
     <main>
-      <h1 className="mb-4 text-4xl font-extrabold leading-none tracking-tight text-gray-900 md:text-5xl lg:text-6xl dark:text-white ">Julien Pronier</h1>
-      <h2 className="mb-4 text-4xl font-extrabold leading-none tracking-tight text-gray-900 md:text-4xl lg:text-6xl dark:text-white">Bienvenue sur mon Portfolio en Ligne</h2>
-      <p className="mb-4 text-lg text-gray-500 md:text-xl dark:text-gray-400">Développeur basé à <big className="dark:text-white">Arras</big>, en France.</p>
-      <p className="mb-4 text-lg text-gray-500 md:text-xl dark:text-gray-400">Je suis passionné par le <big className="dark:text-white">développement informatique</big> sous toutes ses formes.</p>
-      <p className="mb-4 text-lg text-gray-500 md:text-xl dark:text-gray-400">Mon langage de programmation préféré est <big className="dark:text-white">Python</big>.</p>
-      <p className="mb-4 text-lg text-gray-500 md:text-xl dark:text-gray-400">Actuellement en <big className="dark:text-white">3ème année de BUT Informatique</big> à l&apos;IUT de Lens.</p>
-      <p className="mb-4 text-lg text-gray-500 md:text-xl dark:text-gray-400">Je suis à la recherche d&apos;une <big className="dark:text-white"> alternance</big> pour l&apos;année prochaine.</p>
-      <p className="mb-4 text-lg text-gray-500 md:text-xl dark:text-gray-400">Je serai disponible à partir du 15 août 2024.</p>
+      <h1 className="mb-4 text-4xl font-extrabold leading-none tracking-tight text-gray-900 md:text-5xl lg:text-6xl text-white ">Julien Pronier</h1>
+      <h2 className="mb-4 text-4xl font-extrabold leading-none tracking-tight text-gray-900 md:text-4xl lg:text-6xl text-white">Bienvenue sur mon Portfolio en Ligne</h2>
+      <p className="mb-4 text-lg text-gray-500 md:text-xl text-gray-400">Développeur basé à <big className="text-white">Arras</big>, en France.</p>
+      <p className="mb-4 text-lg text-gray-500 md:text-xl text-gray-400">Je suis passionné par le <big className="text-white">développement informatique</big> sous toutes ses formes.</p>
+      <p className="mb-4 text-lg text-gray-500 md:text-xl text-gray-400">Mon langage de programmation préféré est <big className="text-white">Python</big>.</p>
+      <p className="mb-4 text-lg text-gray-500 md:text-xl text-gray-400">Actuellement en <big className="text-white">3ème année de BUT Informatique</big> à l&apos;IUT de Lens.</p>
+      <p className="mb-4 text-lg text-gray-500 md:text-xl text-gray-400">Je suis à la recherche d&apos;une <big className="text-white"> alternance</big> pour l&apos;année prochaine.</p>
+      <p className="mb-4 text-lg text-gray-500 md:text-xl text-gray-400">Je serai disponible à partir du 15 août 2024.</p>
     
       <div id="photo">
         <img className="profile" src="moi.png" alt="Moi après 2 jour à la salle" />
       </div>
 
-      <p className="mb-4 text-4xl font-extrabold leading-none tracking-tight text-gray-900 md:text-4xl lg:text-6xl dark:text-white p-10">Compétences</p>
+      <p className="mb-4 text-4xl font-extrabold leading-none tracking-tight text-gray-900 md:text-4xl lg:text-6xl text-white p-10">Compétences</p>
 
       <div className="wrapper">
         <div className="containaimg" id="un">
@@ -111,7 +111,7 @@ export default function Home() {
       </div>
 
 
-      <p className="mb-4 text-4xl font-extrabold leading-none tracking-tight text-gray-900 md:text-4xl lg:text-6xl dark:text-white p-10 mg-10 my-10">Projets</p>
+      <p className="mb-4 text-4xl font-extrabold leading-none tracking-tight text-gray-900 md:text-4xl lg:text-6xl text-white p-10 mg-10 my-10">Projets</p>
       
       <div className="wrapper2">
         <div className="containaimg2" id="un2">
@@ -145,11 +145,11 @@ export default function Home() {
       </div>
       
       <footer>
-        <p className="mb-4 text-lg text-gray-500 md:text-xl dark:text-gray-400">Email : pronier.julien@gmail.com</p>
-        <p className="mb-4 text-lg text-gray-500 md:text-xl dark:text-gray-400"> 
+        <p className="mb-4 text-lg text-gray-500 md:text-xl text-gray-400">Email : pronier.julien@gmail.com</p>
+        <p className="mb-4 text-lg text-gray-500 md:text-xl text-gray-400"> 
           <a href="https://www.linkedin.com/in/julien-pronier/" target="blank">LinkedIn</a>
         </p>
-        <p className="mb-4 text-lg text-gray-500 md:text-xl dark:text-gray-400"> 
+        <p className="mb-4 text-lg text-gray-500 md:text-xl text-gray-400"> 
           <a href="memoire">Mémoire</a>
         </p>
 
