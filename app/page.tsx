@@ -71,7 +71,7 @@ export default function Home() {
 
         <div className="containaimg" id="six">
           <a className="containimg" href="https://nextjs.org/" target="blank">
-          <img className="logo" src="next.svg" alt="" />
+          <img className="logo" src="nextjs.png" alt="" />
           </a>
           <ul>
             <li>NextJS</li>
