@@ -31,7 +31,7 @@ export default function Home() {
 
         <div className="containaimg" id="deux">
           <a className="containimg" href="https://angular.io/" target="blank">
-            <img className="logo" src="angular.png" alt="" />
+            <img className="logo" src="angular.svg" alt="" />
           </a>
           <ul>
             <li>Angular</li>
@@ -41,7 +41,7 @@ export default function Home() {
 
         <div className="containaimg" id="trois">
           <a className="containimg" href="https://laravel.com/" target="blank">
-          <img className="logo" src="laravel.svg.png" alt="" />
+          <img className="logo" src="laravel.svg" alt="" />
           </a>
           <ul>
             <li>Laravel</li>
@@ -71,7 +71,7 @@ export default function Home() {
 
         <div className="containaimg" id="six">
           <a className="containimg" href="https://nextjs.org/" target="blank">
-          <img className="logo" src="nextjs.png" alt="" />
+          <img className="logo" src="next.svg" alt="" />
           </a>
           <ul>
             <li>NextJS</li>
