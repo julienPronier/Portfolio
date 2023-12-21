@@ -42,6 +42,191 @@ body {
   padding-bottom: 5%;
 }
 
-img {
+.profile {
   border-radius: 100px;
+}
+
+.carousel {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  padding-bottom: 5%;
+}
+
+.logo {
+  width: 150px;
+  margin: 30px;
+}
+
+/* Technos */
+
+.containimg {
+  display: flex;
+  justify-content: center;
+}
+
+.containaimg {
+  background-color: rgb(31, 31, 50);
+  width: 430px;
+  height: 290px;
+  padding: 10px;
+  border-radius: 20px;
+}
+
+#un {
+  grid-area: image1;
+}
+
+#deux {
+  grid-area: image2;
+}
+
+#trois {
+  grid-area: image3;
+}
+
+#quatre {
+  grid-area: image4;
+}
+
+#cinq {
+  grid-area: image5;
+}
+
+#six {
+  grid-area: image6;
+}
+
+#sept {
+  grid-area: image7;
+}
+
+#huit {
+  grid-area: image8;
+}
+
+#neuf {
+  grid-area: image9;
+}
+
+.wrapper {
+  display: grid;
+  grid-gap: 40px;
+  justify-content: space-evenly;
+  grid-template-areas:
+    "image1 image2 image3"
+    "image4 image5 image6"
+    "image7 image8 image9";
+}
+
+@media only screen and (max-width: 600px) {
+  .wrapper {
+    grid-template-columns: 1fr;
+    grid-template-areas:
+      "image1"
+      "image2"
+      "image3"
+      "image4"
+      "image5"
+      "image6"
+      "image7"
+      "image8"
+      "image9";
+  }
+  nav ul {
+    display: flex;
+    justify-content: space-between;
+  }
+}
+
+
+/* Projets */
+
+.proj {
+  border-radius: 10px;
+}
+
+.containimg2 {
+  display: flex;
+  justify-content: center;
+}
+
+.containaimg2 {
+  background-color: rgb(31, 31, 50);
+  width: 1300px;
+  height: 640px;
+  padding: 10px;
+  border-radius: 20px;
+}
+
+#un2 {
+  grid-area: image1;
+  height: 100%;
+}
+
+#deux2 {
+  grid-area: image2;
+  height: 100%;
+}
+
+#trois2 {
+  grid-area: image3;
+  height: 100%;
+}
+
+.wrapper2 {
+  display: grid;
+  grid-gap: 40px;
+  justify-content: space-evenly;
+  grid-template-areas:
+    "image1"
+    "image2"
+    "image3"
+    "image4";
+}
+
+@media only screen and (max-width: 600px) {
+  html {
+    width: 100%;
+  }
+  #un2 {
+    height: 100%;
+  }
+  #deux2 {
+    height: 100%;
+  }
+  
+  #trois2 {
+    height: 100%;
+  }
+  .wrapper2 {
+    grid-template-columns: 0.8fr;
+    grid-template-areas:
+      "image1"
+      "image2"
+      "image3"
+      "image4"
+      "image5"
+      "image6"
+      "image7"
+      "image8"
+      "image9";
+  }
+  nav ul {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .containimg2 {
+    display: flex;
+    justify-content: center;
+  }
+  
+  .containaimg2 {
+    background-color: rgb(31, 31, 50);
+    width: 430px;
+    height: 290px;
+    padding: 10px;
+    border-radius: 20px;
+  }
 }
