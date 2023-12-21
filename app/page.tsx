@@ -143,17 +143,17 @@ export default function Home() {
           </ul>
         </div>
       </div>
-
-      <p className="mb-4 text-4xl font-extrabold leading-none tracking-tight text-gray-900 md:text-4xl lg:text-6xl dark:text-white p-10 mg-10 my-10">Contacts</p>
-
-      <div>
-        <p className="mb-4 text-lg text-gray-500 md:text-xl dark:text-gray-400">Numéro de téléphone : </p>
-        <p className="mb-4 text-lg text-gray-500 md:text-xl dark:text-gray-400">Email : </p>
+      
+      <footer>
+        <p className="mb-4 text-lg text-gray-500 md:text-xl dark:text-gray-400">Email : pronier.julien@gmail.com</p>
         <p className="mb-4 text-lg text-gray-500 md:text-xl dark:text-gray-400"> 
-          <a href="https://www.linkedin.com/in/julien-pronier/" target="blank">➔ Linkedin</a>
+          <a href="https://www.linkedin.com/in/julien-pronier/" target="blank">LinkedIn</a>
+        </p>
+        <p className="mb-4 text-lg text-gray-500 md:text-xl dark:text-gray-400"> 
+          <a href="memoire">Mémoire</a>
         </p>
 
-      </div>
+      </footer>
 
     </main>
     
