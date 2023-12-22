@@ -51,7 +51,7 @@ export default function Home() {
         
         <div className="containaimg" id="quatre">
           <a className="containimg" href="https://spring.io/" target="blank">
-          <img className="logo" src="spring.png" alt="" />
+          <img className="logo" src="spring.svg" alt="" />
           </a>
           <ul>
             <li>Spring</li>
@@ -61,7 +61,7 @@ export default function Home() {
 
         <div className="containaimg" id="cinq">
           <a className="containimg" href="https://fr.react.dev/" target="blank">
-          <img className="logo" src="react.svg.png" alt="" />
+          <img className="logo" src="react.svg" alt="" />
           </a>
           <ul>
             <li>React</li>
@@ -101,7 +101,7 @@ export default function Home() {
         </div>
         <div className="containaimg" id="neuf">
           <a className="containimg" href="https://www.postgresql.org/" target="blank">
-          <img className="logo" src="postgresql.svg.png" alt="" />
+          <img className="logo" src="postgresql.svg" alt="" />
           </a>
           <ul>
             <li>PostgreSQL</li>
