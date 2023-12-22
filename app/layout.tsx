@@ -9,7 +9,7 @@ export const metadata: Metadata = {
   description: 'Voici mon Portfolio ',
   openGraph: {
     title:'test (icule)',
-    images:'moi.png'
+    images:'public/moi.png'
   }
 }
 
