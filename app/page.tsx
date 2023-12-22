@@ -149,6 +149,7 @@ export default function Home() {
         <p className="mb-4 text-lg text-gray-500 md:text-xl text-gray-400"> 
           <a href="https://www.linkedin.com/in/julien-pronier/" target="blank">LinkedIn</a>
         </p>
+        <p>Info : j'ai une voiture</p>
         <p className="mb-4 text-lg text-gray-500 md:text-xl text-gray-400"> 
           <a href="memoire">Mémoire</a>
         </p>
