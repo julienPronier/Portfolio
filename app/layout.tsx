@@ -5,11 +5,11 @@ import './globals.css'
 const inter = Inter({ subsets: ['latin'] })
 
 export const metadata: Metadata = {
-  title: 'Portfolio Pronier Julien',
-  description: 'Voici mon Portfolio ',
+  title: 'Portfolio Julien Pronier',
+  description: 'Voici mon Portfolio réalisé en NextJS',
   openGraph: {
-    title:'test (icule)',
-    images:'public/moi.png'
+    title:'Portfolio de Pronier Julien',
+    images:'./public/moi.png'
   }
 }
 
