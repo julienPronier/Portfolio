@@ -13,7 +13,7 @@ export default function Home() {
       <p className="mb-4 text-lg text-gray-500 md:text-xl text-gray-400">Je serai disponible à partir du 15 août 2024.</p>
     
       <div id="photo">
-        <img className="profile" src="moi.png" alt="Moi après 2 jour à la salle" />
+        <img className="profile" src="moi.jpg" alt="Moi après 2 jour à la salle" />
       </div>
 
       <p className="mb-4 text-4xl font-extrabold leading-none tracking-tight text-gray-900 md:text-4xl lg:text-6xl text-white p-10">Compétences</p>
@@ -116,7 +116,7 @@ export default function Home() {
       <div className="wrapper2">
         <div className="containaimg2" id="un2">
           <a className="containimg2" href="https://dev.renatech.org/" target="blank">
-            <img className="proj" src="repotech.png" alt="Image du site repotech, site développé en python flask qui sert a la gestion de projet" />
+            <img className="proj" src="repotech.jpg" alt="Image du site repotech, site développé en python flask qui sert a la gestion de projet" />
           </a>
           <ul>
             <li>Projet Repotech</li>
@@ -126,7 +126,7 @@ export default function Home() {
         </div>
 
         <div className="containaimg2" id="deux2">
-          <img className="proj" src="ludo.png" alt="Image du site de Ludothèque" /> 
+          <img className="proj" src="ludo.jpg" alt="Image du site de Ludothèque" /> 
           <ul>
             <li>Projet &ldquo;Vapeur&ldquo; (Ludothèque)</li>
             <li></li>
@@ -135,7 +135,7 @@ export default function Home() {
         </div>
 
         <div className="containaimg2" id="trois2">
-          <img className="proj" src="perso1.png" alt="Image du site de Ludothèque" /> 
+          <img className="proj" src="perso1.jpg" alt="Image du site de Ludothèque" /> 
           <ul>
             <li>Projet personnel (Géneration)</li>
             <li></li>

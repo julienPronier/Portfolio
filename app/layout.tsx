@@ -9,7 +9,7 @@ export const metadata: Metadata = {
   description: 'Voici mon Portfolio réalisé en NextJS',
   openGraph: {
     title:'Portfolio de Pronier Julien',
-    images:'./moi.png'
+    images:'./moi.jpg'
   }
 }
 
